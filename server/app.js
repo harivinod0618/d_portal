@@ -28,7 +28,7 @@ connectDB();
 
 //
 app.get("/",(req,res)=>{
-  res.json("welcome to convocation")
+  res.json("Hari Vinod's maneya....!!")
 })
 //routes
 const userRoutes = require("./routes/User");
