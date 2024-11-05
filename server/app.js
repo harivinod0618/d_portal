@@ -26,6 +26,10 @@ app.use(express.json());
 //connect mongodb
 connectDB();
 
+//
+app.get("/",(req,res)=>{
+  res.json("welcome to convocation")
+}
 //routes
 const userRoutes = require("./routes/User");
 app.use("/user", userRoutes);
